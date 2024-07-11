@@ -4,8 +4,8 @@
     <title>www.layabox.com</title>
     <meta charset='utf-8' />
     <meta name='renderer' content='webkit' />
-    <meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
-    />
+    <meta name='viewport'
+        content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' />
     <meta name='apple-mobile-web-app-capable' content='yes' />
     <meta name='full-screen' content='true' />
     <meta name='x5-fullscreen' content='true' />
@@ -26,18 +26,19 @@
             document.body.appendChild(script);
         }
     </script>
-    <script async data-adbreak-test="on" data-ad-frequency-hint="20s" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8504590301958799"
-    crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-        style="display:inline-block;width:320px;height:50px"
-        data-ad-client="ca-pub-8504590301958799"
-        data-ad-slot="7541844751"></ins>
+    <script async data-adbreak-test="on" data-ad-frequency-hint="20s"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8504590301958799"
+        crossorigin="anonymous"></script>
+    <ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"
+        data-ad-client="ca-pub-8504590301958799" data-ad-slot="7541844751"></ins>
     <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <script type="text/javascript" src="index.js"></script>
+        // (adsbygoogle = window.adsbygoogle || []).push({});
+        adsbygoogle = window.adsbygoogle || [];
+        const adBreak = adConfig = function (o) { adsbygoogle.push(o); }
+        window["adBreak"] = adBreak;
+    </script>
     <script src="libs/vconsole.js"></script>
-    <script> var vConsole = new VConsole(); </script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
